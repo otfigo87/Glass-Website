@@ -3,6 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+.ana {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+h1 {
+  color: #426696;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+h2,
+p {
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+h3 {
+  color: #426696;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
 
 main {
     min-height: 100vh;
@@ -20,6 +44,7 @@ main {
     border-radius: 1rem;
     z-index: 2;
     backdrop-filter: blur(1rem);
+    display: flex;
 }
 
 .circle1,
@@ -44,3 +69,51 @@ main {
   bottom: 5%;
   left: 7%;
 }
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.link{
+    display: flex;
+    margin: 1rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+.link h2 {
+    padding: 0rem 1.5rem;
+}
+.pro {
+   background: linear-gradient(to right top, #65dfc9, #03d3f3); 
+   border-radius: 2rem;
+   margin-bottom: 1rem;
+   padding: 1rem;
+   color: white;
+    position: relative;
+}
+.pro img {
+  position: absolute;
+  top: -28%;
+  right: 10%;
+}
+.pro h2 {
+  width: 40%;
+  color: white;
+  font-weight: 600;
+}
+
+.games {
+    flex: 2;
+}
+
